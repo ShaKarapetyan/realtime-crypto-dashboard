@@ -20,8 +20,10 @@ Make sure you have [Bun](https://bun.sh/) installed on your machine.
    
 2. **Run the development server:**
    ```bun run dev
-   Open http://localhost:5173 in your browser to view the application.
+      bun run dev
+   **Open http://localhost:5173 in your browser to view the application:**
    
-3. **Build for production:**
+4. **Build for production:**
    ```bun run build
-   This builds the app for production into the dist folder, optimized for performance.
+      bun run build
+   **This builds the app for production into the dist folder, optimized for performance.**
