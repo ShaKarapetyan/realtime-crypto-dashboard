@@ -1,28 +1,27 @@
-## Usage
+# 💻 Real-Time Crypto Dashboard - Frontend
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
+This is the client-side application for the **Real-Time Crypto Dashboard**, built with **SolidJS**, **Vite**, and **TypeScript**. It connects via WebSockets to receive live, streaming cryptocurrency price updates.
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## 🚀 Tech Stack
 
-## Available Scripts
+- **Framework:** SolidJS
+- **Build Tool:** Vite
+- **Language:** TypeScript
+- **Styling:** CSS Modules
+- **Real-Time Communication:** WebSocket API
 
-In the project directory, you can run:
+## ⚙️ Getting Started
 
-### `npm run dev`
+Make sure you have [Bun](https://bun.sh/) installed on your machine.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vite.dev/guide/static-deploy.html)
+1. **Install dependencies:**
+   ```bash
+   bun install
+   
+2. **Run the development server:**
+   bun run dev
+   Open http://localhost:5173 in your browser to view the application.
+   
+3. **Build for production:**
+   bun run build
+   This builds the app for production into the dist folder, optimized for performance.
